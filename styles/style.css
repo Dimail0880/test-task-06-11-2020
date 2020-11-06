@@ -1,0 +1,142 @@
+/* COMMON SETTINGS */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  padding: 30px;
+}
+.main-wrapper {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input {
+  margin-left: 5px;
+  height: 25px;
+  min-width: 500px;
+  border: 1px solid grey;
+  padding: 2px;
+  flex-grow: 5;
+  display: inline;
+}
+.input:focus {
+  border: thistle;
+}
+.icons-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.icons-wrapper i {
+  margin: 5px;
+}
+/* ASIDE PANEL */
+.aside-panel {
+  background-color: #333f4e;
+  height: 100vh;
+}
+/* LOGO */
+.logo-wrapper {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}
+.logo {
+  width: 150px;
+  padding: 5px;
+  cursor: pointer;
+}
+.close-btn {
+  color: white;
+  width: 50px;
+  cursor: pointer;
+  margin: 5px;
+}
+/* LIST */
+.links-list {
+  margin: 0;
+  padding: 0;
+}
+.list-item {
+  padding: 15px;
+  list-style: none;
+  cursor: pointer;
+}
+.list-item:hover {
+  background-color: #384756;
+}
+.list-item a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* MAIN */
+
+.main-text {
+  display: flex;
+  background-color: #f0f1f0;
+  padding: 25px;
+  height: auto;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding-bottom: 25px;
+}
+/* BLOCKS */
+.activity-block {
+  margin: 30px;
+  background-color: #fff;
+}
+
+.block-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  align-items: center;
+  padding: 8px;
+  height: 55px;
+}
+.custom-select {
+  width: 180px;
+}
+.vehicle-block {
+  flex-grow: 3;
+  margin: 30px;
+  background-color: #fff;
+  min-width: 300px;
+}
+.hide-menu {
+  background-color: #333f4e;
+  height: 100vh;
+  width: 30px;
+}
+/* MEDIA RULES */
+
+@media only screen and (max-width: 640px) {
+  .aside-panel {
+    display: none;
+  }
+  .input {
+    width: 100%;
+    min-width: 220px;
+  }
+
+  .block-header {
+    min-width: 320px;
+  }
+}
+@media only screen and (max-width: 968px) {
+  .main-text {
+    flex-direction: column;
+  }
+}

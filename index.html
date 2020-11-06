@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="./styles/font-awesome.min.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <form action="" class="form">
+        <i class="fas fa-search"></i>
+        <input class="form-control input" type="text" name="" id="" />
+      </form>
+      <div class="icons-wrapper">
+        <a href="#"><i class="far fa-comment-alt"></i></a>
+        <a href="#"> <i class="far fa-bell"></i></a>
+        <a href="#"> <i class="far fa-user"></i></a>
+      </div>
+    </header>
+    <!-- MAIN CONTENT -->
+    <main class="main-wrapper">
+      <!-- ASIDE -->
+      <aside class="aside-panel">
+        <div class="logo-wrapper">
+          <img class="logo" src="./img/logo.png" alt="logo" />
+          <div class="close-btn">close X</div>
+        </div>
+        <ul class="links-list">
+          <li class="list-item"><a href="#">link1</a></li>
+          <li class="list-item"><a href="#">link2</a></li>
+          <li class="list-item"><a href="#">link3</a></li>
+          <li class="list-item"><a href="#">link4</a></li>
+          <li class="list-item"><a href="#">link5</a></li>
+          <li class="list-item"><a href="#">link6</a></li>
+          <li class="list-item"><a href="#">link7</a></li>
+        </ul>
+      </aside>
+      <!-- MAIN BLOCKS -->
+      <div class="main-text">
+        <div class="activity-block">
+          <div class="block-header">
+            <div class="block-name">activity</div>
+            <select class="custom-select">
+              <option selected>All updates</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+            voluptatum ad nulla perferendis enim tenetur sed odio? Minus, quo
+            saepe atque voluptas hic odio tenetur eaque inventore, maiores
+            cumque illum!
+          </p>
+        </div>
+        <div class="vehicle-block">
+          <div class="block-header">
+            <div class="block-name">vehicle</div>
+
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link active"
+                  id="pills-home-tab"
+                  data-toggle="pill"
+                  href="#pills-home"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                  ><i class="fas fa-reply-all"></i
+                ></a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  id="pills-profile-tab"
+                  data-toggle="pill"
+                  href="#pills-profile"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                  ><i class="fas fa-home"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+            >
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate, voluptatum ad nulla perferendis enim tenetur sed
+                odio? Minus, quo saepe atque voluptas hic odio tenetur eaque
+                inventore, maiores cumque illum!
+              </p>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-profile"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+            >
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                asperiores, minima officiis autem perspiciatis dignissimos?
+                Veritatis repudiandae quam, placeat cupiditate possimus amet
+                fuga exercitationem dolore. Tempora eos eius expedita fugiat
+                consequuntur minus, saepe sequi modi ad corrupti nulla inventore
+                aliquid, impedit dignissimos ex praesentium harum corporis
+                pariatur delectus quaerat blanditiis!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- SCRIPTS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./app/app.js"></script>
+  </body>
+</html>
